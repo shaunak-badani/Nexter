@@ -22,7 +22,7 @@ export default function RootLayout({
         <link rel="stylesheet" href="css/style.css" />
         <link rel="shortcut icon" type="image/png" href="/favicon.png" />
         
-        <title>trillo &mdash; Your all-in-one booking app</title>
+        <title>nexter &mdash; Your all-in-one booking app</title>
       </head>
       <body>{children}</body>
     </html>
