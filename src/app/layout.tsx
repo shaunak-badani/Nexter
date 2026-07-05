@@ -4,8 +4,8 @@ import "./globals.css";
 
 
 export const metadata: Metadata = {
-  // title: "Trillo",
-  description: "Your all in one app for booking, literally anything!",
+  title: `nexter \u2014 your home, your freedom`,
+  description: "Nexter in Next JS \u2014 a template from the course Advanced CSS and Sass by Jonas Schmedtmann",
 };
 
 export default function RootLayout({
@@ -18,11 +18,10 @@ export default function RootLayout({
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet" />
         <link rel="stylesheet" href="css/style.css" />
         <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i" rel="stylesheet" />
         
-        <title>nexter &mdash; Your all-in-one booking app</title>
       </head>
       <body>{children}</body>
     </html>
