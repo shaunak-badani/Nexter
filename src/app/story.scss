@@ -1,0 +1,12 @@
+@use "./base" as *;
+
+.story {
+
+    &Pictures {
+        background-color: $color-primary;
+    }
+
+    &Content {
+        background-color: $color-grey-light-1;
+    }
+}
