@@ -1,10 +1,10 @@
 import Image from "next/image";
-import styles from "./page.module.scss";
+import styles from "./page.scss";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      Hi
+    <div className="container">
+      TEST TEXT
     </div>
   );
 }
