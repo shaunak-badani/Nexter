@@ -68,7 +68,8 @@ export default function Home() {
         </div>
       </section>
       <div className="storyPictures">
-          Story pictures
+          <img src="img/story-1.jpeg" alt="Couple with new house" className="storyImg--1" />
+          <img src="img/story-2.jpeg" alt="New house" className="storyImg--2" />
       </div>
       <div className="storyContent">
         <h3 className="heading-3 mb-sm">Happy Customers</h3>
