@@ -1,5 +1,22 @@
 import type { Metadata } from "next";
 import "./globals.scss";
+import { Josefin_Sans, Nunito } from 'next/font/google';
+
+export const josefin = Josefin_Sans({
+  variable: '--font-josefin',
+  weight: ['300', '400'],
+  style: ['normal', 'italic'],
+  // subsets: ['latin'],
+  // display: 'swap',
+});
+
+export const nunito = Nunito({
+  variable: '--font-nunito',
+  weight: ['300'],
+  style: ['normal', 'italic'],
+  // subsets: ['latin'],
+  // display: 'swap',
+});
 
 
 
@@ -23,7 +40,7 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i" rel="stylesheet" />
         
       </head>
-      <body>{children}</body>
+      <body className={[nunito.variable, josefin.variable].join(' ')}>{children}</body>
     </html>
   );
 }

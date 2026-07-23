@@ -11,5 +11,6 @@ $color-grey-dark-1: #54483A;
 $color-grey-dark-2: #6D5D4B;
 
 // FONT VARIABLES
-$font-primary: 'Nunito', sans-serif;
-$font-display: 'Josefin Sans', sans-serif;
+$font-primary: var(--font-nunito), sans-serif;
+// $font-display: 'Josefin Sans', sans-serif;
+$font-display: var(--font-josefin), sans-serif;
