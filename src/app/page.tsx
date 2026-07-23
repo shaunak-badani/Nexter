@@ -80,7 +80,7 @@ export default function Home() {
       <section className="homes">
         <div className="home">
           <img src="img/house-1.jpeg" alt="House 1" className="homeImg" />
-          <svg>
+          <svg className="homeLike">
             <use xlinkHref="img/sprite.svg#icon-heart-full"></use>
           </svg>
           <h5 className="homeName">Beautiful Family House</h5>
@@ -108,12 +108,12 @@ export default function Home() {
             </svg>
             <p>$1,200,000</p>
           </div>
-          <button className="cta">Contact realtor</button>
+          <button className="btn homeBtn">Contact realtor</button>
         </div>
 
         <div className="home">
           <img src="img/house-2.jpeg" alt="House 2" className="homeImg" />
-          <svg>
+          <svg className="homeLike">
             <use xlinkHref="img/sprite.svg#icon-heart-full"></use>
           </svg>
           <h5 className="homeName">Modern Glass Villa</h5>
@@ -141,12 +141,12 @@ export default function Home() {
             </svg>
             <p>$2,750,000</p>
           </div>
-          <button className="cta">Contact realtor</button>
+          <button className="btn homeBtn">Contact realtor</button>
         </div>
 
         <div className="home">
           <img src="img/house-3.jpeg" alt="House 3" className="homeImg" />
-          <svg>
+          <svg className="homeLike">
             <use xlinkHref="img/sprite.svg#icon-heart-full"></use>
           </svg>
           <h5 className="homeName">Cozy Country House</h5>
@@ -174,12 +174,12 @@ export default function Home() {
             </svg>
             <p>$850,000</p>
           </div>
-          <button className="cta">Contact realtor</button>
+          <button className="btn homeBtn">Contact realtor</button>
         </div>
 
         <div className="home">
           <img src="img/house-4.jpeg" alt="House 4" className="homeImg" />
-          <svg>
+          <svg className="homeLike">
             <use xlinkHref="img/sprite.svg#icon-heart-full"></use>
           </svg>
           <h5 className="homeName">Large Rustical Villa</h5>
@@ -207,12 +207,12 @@ export default function Home() {
             </svg>
             <p>$1,950,000</p>
           </div>
-          <button className="cta">Contact realtor</button>
+          <button className="btn homeBtn">Contact realtor</button>
         </div>
 
         <div className="home">
           <img src="img/house-5.jpeg" alt="House 5" className="homeImg" />
-          <svg>
+          <svg className="homeLike">
             <use xlinkHref="img/sprite.svg#icon-heart-full"></use>
           </svg>
           <h5 className="homeName">Majestic Palace House</h5>
@@ -240,12 +240,12 @@ export default function Home() {
             </svg>
             <p>$9,500,000</p>
           </div>
-          <button className="cta">Contact realtor</button>
+          <button className="btn homeBtn">Contact realtor</button>
         </div>
 
         <div className="home">
           <img src="img/house-6.jpeg" alt="House 6" className="homeImg" />
-          <svg>
+          <svg className="homeLike">
             <use xlinkHref="img/sprite.svg#icon-heart-full"></use>
           </svg>
           <h5 className="homeName">Modern Family Apartment</h5>
@@ -273,7 +273,7 @@ export default function Home() {
             </svg>
             <p>$600,000</p>
           </div>
-          <button className="cta">Contact realtor</button>
+          <button className="btn homeBtn">Contact realtor</button>
         </div>
         
       </section>

@@ -13,16 +13,37 @@
 .home {
     background-color: $color-grey-light-1;
 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
     &Img {
         width: 100%;
+        grid-column: 1 / -1;
+        grid-row: 1 / 2;
+        z-index: 1;
     }
 
     &Like {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
 
+        fill: $color-primary;
+        height: 2.5rem;
+        width: 2.5rem;
+        z-index: 2;
+        justify-self: end;
+        margin: 1rem;
     }
 
     &Name {
-
+        grid-column: 1 / -1;
+        font-family: $font-display;
+        font-size: 1.6rem;
+        text-align: center;
+        padding: 1.25rem;
+        background-color: $color-secondary;
+        color: #fff;
+        font-weight: 400;
     }
 
     &Location, &Rooms, &Area, &Price {
@@ -37,5 +58,9 @@
         p {
 
         }
+    }
+
+    &Btn {
+        grid-column: 1 / -1;
     }
 }
