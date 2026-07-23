@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.scss";
 import { Josefin_Sans, Nunito } from 'next/font/google';
+import { wrapPath } from "../../lib/constants";
 
 export const josefin = Josefin_Sans({
   variable: '--font-josefin',
@@ -36,7 +37,7 @@ export default function RootLayout({
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="css/style.css" />
-        <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+        <link rel="shortcut icon" type="image/png" href={wrapPath("favicon.png")} />
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i" rel="stylesheet" />
         
       </head>
