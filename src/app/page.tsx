@@ -278,7 +278,49 @@ export default function Home() {
         
       </section>
       <section className="gallery">
-        Gallery
+        <figure className="galleryItem galleryItem--1">
+          <img src="img/gal-1.jpeg" alt="Gallery Image 1" className="galleryImg" />
+        </figure>
+        <figure className="galleryItem galleryItem--2">
+          <img src="img/gal-2.jpeg" alt="Gallery Image 2" className="galleryImg" />
+        </figure>
+        <figure className="galleryItem galleryItem--3">
+          <img src="img/gal-3.jpeg" alt="Gallery Image 3" className="galleryImg" />
+        </figure>
+        <figure className="galleryItem galleryItem--4">
+          <img src="img/gal-4.jpeg" alt="Gallery Image 4" className="galleryImg" />
+        </figure>
+        <figure className="galleryItem galleryItem--5">
+          <img src="img/gal-5.jpeg" alt="Gallery Image 5" className="galleryImg" />
+        </figure>
+        <figure className="galleryItem galleryItem--6">
+          <img src="img/gal-6.jpeg" alt="Gallery Image 6" className="galleryImg" />
+        </figure>
+        <figure className="galleryItem galleryItem--7">
+          <img src="img/gal-7.jpeg" alt="Gallery Image 7" className="galleryImg" />
+        </figure>
+        <figure className="galleryItem galleryItem--8">
+          <img src="img/gal-8.jpeg" alt="Gallery Image 8" className="galleryImg" />
+        </figure>
+        <figure className="galleryItem galleryItem--9">
+          <img src="img/gal-9.jpeg" alt="Gallery Image 9" className="galleryImg" />
+        </figure>
+        <figure className="galleryItem galleryItem--10">
+          <img src="img/gal-10.jpeg" alt="Gallery Image 10" className="galleryImg" />
+        </figure>
+        <figure className="galleryItem galleryItem--11">
+          <img src="img/gal-11.jpeg" alt="Gallery Image 11" className="galleryImg" />
+        </figure>
+        <figure className="galleryItem galleryItem--12">
+          <img src="img/gal-12.jpeg" alt="Gallery Image 12" className="galleryImg" />
+        </figure>
+        <figure className="galleryItem galleryItem--13">
+          <img src="img/gal-13.jpeg" alt="Gallery Image 13" className="galleryImg" />
+        </figure>
+        <figure className="galleryItem galleryItem--14">
+          <img src="img/gal-14.jpeg" alt="Gallery Image 14" className="galleryImg" />
+        </figure>
+        {/* <img src="img/gal-2.jpeg" alt="Gallery Image 2" className="galleryImg" /> */}
       </section>
       <footer className="footer">
         Footer
